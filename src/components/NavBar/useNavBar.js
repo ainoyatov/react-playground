@@ -26,6 +26,8 @@ const useNavBar = () => {
   );
 
   const breakpointsVariant = useNavBarResponsiveSize();
+  
+  // eslint-disable-next-line react-hooks/exhaustive-deps
 
   React.useEffect(() => {
     if (breakpointsVariant !== currentVariant) {
